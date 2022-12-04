@@ -14,6 +14,11 @@
 		FCD38AF6293C677300FCD3A3 /* CardanoNodeBuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD38AF5293C677300FCD3A3 /* CardanoNodeBuddyTests.swift */; };
 		FCD38B00293C677300FCD3A3 /* CardanoNodeBuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD38AFF293C677300FCD3A3 /* CardanoNodeBuddyUITests.swift */; };
 		FCD38B02293C677300FCD3A3 /* CardanoNodeBuddyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD38B01293C677300FCD3A3 /* CardanoNodeBuddyUITestsLaunchTests.swift */; };
+		FCD38B15293C70C900FCD3A3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD38B14293C70C900FCD3A3 /* main.swift */; };
+		FCD38B1A293C745500FCD3A3 /* node-version.sh in Resources */ = {isa = PBXBuildFile; fileRef = FCD38B19293C745500FCD3A3 /* node-version.sh */; };
+		FCD38B1C293C74DE00FCD3A3 /* install.sh in Resources */ = {isa = PBXBuildFile; fileRef = FCD38B1B293C74DE00FCD3A3 /* install.sh */; };
+		FCD38B20293C760800FCD3A3 /* ToolInstaller.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD38B1F293C760800FCD3A3 /* ToolInstaller.m */; };
+		FCD38B21293C760800FCD3A3 /* ToolInstaller.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD38B1F293C760800FCD3A3 /* ToolInstaller.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +38,18 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		FCD38B10293C70C900FCD3A3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		FCD38AE0293C677200FCD3A3 /* CardanoNodeBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardanoNodeBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCD38AE3293C677200FCD3A3 /* CardanoNodeBuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardanoNodeBuddyApp.swift; sourceTree = "<group>"; };
@@ -45,6 +62,13 @@
 		FCD38AFB293C677300FCD3A3 /* CardanoNodeBuddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardanoNodeBuddyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCD38AFF293C677300FCD3A3 /* CardanoNodeBuddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardanoNodeBuddyUITests.swift; sourceTree = "<group>"; };
 		FCD38B01293C677300FCD3A3 /* CardanoNodeBuddyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardanoNodeBuddyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FCD38B12293C70C900FCD3A3 /* CardanoWormholeCLI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CardanoWormholeCLI; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD38B14293C70C900FCD3A3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		FCD38B19293C745500FCD3A3 /* node-version.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "node-version.sh"; sourceTree = "<group>"; };
+		FCD38B1B293C74DE00FCD3A3 /* install.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = install.sh; sourceTree = "<group>"; };
+		FCD38B1D293C760800FCD3A3 /* CardanoNodeBuddy-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CardanoNodeBuddy-Bridging-Header.h"; sourceTree = "<group>"; };
+		FCD38B1F293C760800FCD3A3 /* ToolInstaller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToolInstaller.m; sourceTree = "<group>"; };
+		FCD38B22293C766B00FCD3A3 /* ToolInstaller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToolInstaller.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +93,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FCD38B0F293C70C900FCD3A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,6 +109,7 @@
 				FCD38AE2293C677200FCD3A3 /* CardanoNodeBuddy */,
 				FCD38AF4293C677300FCD3A3 /* CardanoNodeBuddyTests */,
 				FCD38AFE293C677300FCD3A3 /* CardanoNodeBuddyUITests */,
+				FCD38B13293C70C900FCD3A3 /* CardanoWormholeCLI */,
 				FCD38AE1293C677200FCD3A3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,6 +120,7 @@
 				FCD38AE0293C677200FCD3A3 /* CardanoNodeBuddy.app */,
 				FCD38AF1293C677300FCD3A3 /* CardanoNodeBuddyTests.xctest */,
 				FCD38AFB293C677300FCD3A3 /* CardanoNodeBuddyUITests.xctest */,
+				FCD38B12293C70C900FCD3A3 /* CardanoWormholeCLI */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,6 +133,9 @@
 				FCD38AE7293C677300FCD3A3 /* Assets.xcassets */,
 				FCD38AEC293C677300FCD3A3 /* CardanoNodeBuddy.entitlements */,
 				FCD38AE9293C677300FCD3A3 /* Preview Content */,
+				FCD38B22293C766B00FCD3A3 /* ToolInstaller.h */,
+				FCD38B1F293C760800FCD3A3 /* ToolInstaller.m */,
+				FCD38B1D293C760800FCD3A3 /* CardanoNodeBuddy-Bridging-Header.h */,
 			);
 			path = CardanoNodeBuddy;
 			sourceTree = "<group>";
@@ -127,6 +163,16 @@
 				FCD38B01293C677300FCD3A3 /* CardanoNodeBuddyUITestsLaunchTests.swift */,
 			);
 			path = CardanoNodeBuddyUITests;
+			sourceTree = "<group>";
+		};
+		FCD38B13293C70C900FCD3A3 /* CardanoWormholeCLI */ = {
+			isa = PBXGroup;
+			children = (
+				FCD38B14293C70C900FCD3A3 /* main.swift */,
+				FCD38B19293C745500FCD3A3 /* node-version.sh */,
+				FCD38B1B293C74DE00FCD3A3 /* install.sh */,
+			);
+			path = CardanoWormholeCLI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,6 +231,23 @@
 			productReference = FCD38AFB293C677300FCD3A3 /* CardanoNodeBuddyUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		FCD38B11293C70C900FCD3A3 /* CardanoWormholeCLI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCD38B16293C70C900FCD3A3 /* Build configuration list for PBXNativeTarget "CardanoWormholeCLI" */;
+			buildPhases = (
+				FCD38B0E293C70C900FCD3A3 /* Sources */,
+				FCD38B0F293C70C900FCD3A3 /* Frameworks */,
+				FCD38B10293C70C900FCD3A3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardanoWormholeCLI;
+			productName = CardanoWormholeCLI;
+			productReference = FCD38B12293C70C900FCD3A3 /* CardanoWormholeCLI */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,6 +260,7 @@
 				TargetAttributes = {
 					FCD38ADF293C677200FCD3A3 = {
 						CreatedOnToolsVersion = 14.1;
+						LastSwiftMigration = 1410;
 					};
 					FCD38AF0293C677300FCD3A3 = {
 						CreatedOnToolsVersion = 14.1;
@@ -205,6 +269,10 @@
 					FCD38AFA293C677300FCD3A3 = {
 						CreatedOnToolsVersion = 14.1;
 						TestTargetID = FCD38ADF293C677200FCD3A3;
+					};
+					FCD38B11293C70C900FCD3A3 = {
+						CreatedOnToolsVersion = 14.1;
+						LastSwiftMigration = 1410;
 					};
 				};
 			};
@@ -224,6 +292,7 @@
 				FCD38ADF293C677200FCD3A3 /* CardanoNodeBuddy */,
 				FCD38AF0293C677300FCD3A3 /* CardanoNodeBuddyTests */,
 				FCD38AFA293C677300FCD3A3 /* CardanoNodeBuddyUITests */,
+				FCD38B11293C70C900FCD3A3 /* CardanoWormholeCLI */,
 			);
 		};
 /* End PBXProject section */
@@ -235,6 +304,8 @@
 			files = (
 				FCD38AEB293C677300FCD3A3 /* Preview Assets.xcassets in Resources */,
 				FCD38AE8293C677300FCD3A3 /* Assets.xcassets in Resources */,
+				FCD38B1C293C74DE00FCD3A3 /* install.sh in Resources */,
+				FCD38B1A293C745500FCD3A3 /* node-version.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +331,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCD38AE6293C677200FCD3A3 /* ContentView.swift in Sources */,
+				FCD38B20293C760800FCD3A3 /* ToolInstaller.m in Sources */,
 				FCD38AE4293C677200FCD3A3 /* CardanoNodeBuddyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +350,15 @@
 			files = (
 				FCD38B02293C677300FCD3A3 /* CardanoNodeBuddyUITestsLaunchTests.swift in Sources */,
 				FCD38B00293C677300FCD3A3 /* CardanoNodeBuddyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD38B0E293C70C900FCD3A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD38B21293C760800FCD3A3 /* ToolInstaller.m in Sources */,
+				FCD38B15293C70C900FCD3A3 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +496,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = CardanoNodeBuddy/CardanoNodeBuddy.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -433,6 +515,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.covelop.CardanoNodeBuddy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CardanoNodeBuddy/CardanoNodeBuddy-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -442,6 +526,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = CardanoNodeBuddy/CardanoNodeBuddy.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -460,6 +545,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.covelop.CardanoNodeBuddy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CardanoNodeBuddy/CardanoNodeBuddy-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -536,6 +622,43 @@
 			};
 			name = Release;
 		};
+		FCD38B17293C70C900FCD3A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VK4YEHB7P5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CardanoNodeBuddy/CardanoWormholeCLI-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FCD38B18293C70C900FCD3A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VK4YEHB7P5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CardanoNodeBuddy/CardanoWormholeCLI-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -571,6 +694,15 @@
 			buildConfigurations = (
 				FCD38B0C293C677300FCD3A3 /* Debug */,
 				FCD38B0D293C677300FCD3A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCD38B16293C70C900FCD3A3 /* Build configuration list for PBXNativeTarget "CardanoWormholeCLI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD38B17293C70C900FCD3A3 /* Debug */,
+				FCD38B18293C70C900FCD3A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
