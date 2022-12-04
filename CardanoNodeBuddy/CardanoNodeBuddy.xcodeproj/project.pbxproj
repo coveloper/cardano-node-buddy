@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCD38AE4293C677200FCD3A3 /* CardanoNodeBuddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD38AE3293C677200FCD3A3 /* CardanoNodeBuddyApp.swift */; };
+		FCD38AE6293C677200FCD3A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD38AE5293C677200FCD3A3 /* ContentView.swift */; };
+		FCD38AE8293C677300FCD3A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCD38AE7293C677300FCD3A3 /* Assets.xcassets */; };
+		FCD38AEB293C677300FCD3A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCD38AEA293C677300FCD3A3 /* Preview Assets.xcassets */; };
+		FCD38AF6293C677300FCD3A3 /* CardanoNodeBuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD38AF5293C677300FCD3A3 /* CardanoNodeBuddyTests.swift */; };
+		FCD38B00293C677300FCD3A3 /* CardanoNodeBuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD38AFF293C677300FCD3A3 /* CardanoNodeBuddyUITests.swift */; };
+		FCD38B02293C677300FCD3A3 /* CardanoNodeBuddyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD38B01293C677300FCD3A3 /* CardanoNodeBuddyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCD38AF2293C677300FCD3A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCD38AD8293C677200FCD3A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCD38ADF293C677200FCD3A3;
+			remoteInfo = CardanoNodeBuddy;
+		};
+		FCD38AFC293C677300FCD3A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCD38AD8293C677200FCD3A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCD38ADF293C677200FCD3A3;
+			remoteInfo = CardanoNodeBuddy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCD38AE0293C677200FCD3A3 /* CardanoNodeBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardanoNodeBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD38AE3293C677200FCD3A3 /* CardanoNodeBuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardanoNodeBuddyApp.swift; sourceTree = "<group>"; };
+		FCD38AE5293C677200FCD3A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FCD38AE7293C677300FCD3A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCD38AEA293C677300FCD3A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FCD38AEC293C677300FCD3A3 /* CardanoNodeBuddy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CardanoNodeBuddy.entitlements; sourceTree = "<group>"; };
+		FCD38AF1293C677300FCD3A3 /* CardanoNodeBuddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardanoNodeBuddyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD38AF5293C677300FCD3A3 /* CardanoNodeBuddyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardanoNodeBuddyTests.swift; sourceTree = "<group>"; };
+		FCD38AFB293C677300FCD3A3 /* CardanoNodeBuddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardanoNodeBuddyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD38AFF293C677300FCD3A3 /* CardanoNodeBuddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardanoNodeBuddyUITests.swift; sourceTree = "<group>"; };
+		FCD38B01293C677300FCD3A3 /* CardanoNodeBuddyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardanoNodeBuddyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCD38ADD293C677200FCD3A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD38AEE293C677300FCD3A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD38AF8293C677300FCD3A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCD38AD7293C677200FCD3A3 = {
+			isa = PBXGroup;
+			children = (
+				FCD38AE2293C677200FCD3A3 /* CardanoNodeBuddy */,
+				FCD38AF4293C677300FCD3A3 /* CardanoNodeBuddyTests */,
+				FCD38AFE293C677300FCD3A3 /* CardanoNodeBuddyUITests */,
+				FCD38AE1293C677200FCD3A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCD38AE1293C677200FCD3A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCD38AE0293C677200FCD3A3 /* CardanoNodeBuddy.app */,
+				FCD38AF1293C677300FCD3A3 /* CardanoNodeBuddyTests.xctest */,
+				FCD38AFB293C677300FCD3A3 /* CardanoNodeBuddyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCD38AE2293C677200FCD3A3 /* CardanoNodeBuddy */ = {
+			isa = PBXGroup;
+			children = (
+				FCD38AE3293C677200FCD3A3 /* CardanoNodeBuddyApp.swift */,
+				FCD38AE5293C677200FCD3A3 /* ContentView.swift */,
+				FCD38AE7293C677300FCD3A3 /* Assets.xcassets */,
+				FCD38AEC293C677300FCD3A3 /* CardanoNodeBuddy.entitlements */,
+				FCD38AE9293C677300FCD3A3 /* Preview Content */,
+			);
+			path = CardanoNodeBuddy;
+			sourceTree = "<group>";
+		};
+		FCD38AE9293C677300FCD3A3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FCD38AEA293C677300FCD3A3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FCD38AF4293C677300FCD3A3 /* CardanoNodeBuddyTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCD38AF5293C677300FCD3A3 /* CardanoNodeBuddyTests.swift */,
+			);
+			path = CardanoNodeBuddyTests;
+			sourceTree = "<group>";
+		};
+		FCD38AFE293C677300FCD3A3 /* CardanoNodeBuddyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCD38AFF293C677300FCD3A3 /* CardanoNodeBuddyUITests.swift */,
+				FCD38B01293C677300FCD3A3 /* CardanoNodeBuddyUITestsLaunchTests.swift */,
+			);
+			path = CardanoNodeBuddyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCD38ADF293C677200FCD3A3 /* CardanoNodeBuddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCD38B05293C677300FCD3A3 /* Build configuration list for PBXNativeTarget "CardanoNodeBuddy" */;
+			buildPhases = (
+				FCD38ADC293C677200FCD3A3 /* Sources */,
+				FCD38ADD293C677200FCD3A3 /* Frameworks */,
+				FCD38ADE293C677200FCD3A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardanoNodeBuddy;
+			productName = CardanoNodeBuddy;
+			productReference = FCD38AE0293C677200FCD3A3 /* CardanoNodeBuddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCD38AF0293C677300FCD3A3 /* CardanoNodeBuddyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCD38B08293C677300FCD3A3 /* Build configuration list for PBXNativeTarget "CardanoNodeBuddyTests" */;
+			buildPhases = (
+				FCD38AED293C677300FCD3A3 /* Sources */,
+				FCD38AEE293C677300FCD3A3 /* Frameworks */,
+				FCD38AEF293C677300FCD3A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCD38AF3293C677300FCD3A3 /* PBXTargetDependency */,
+			);
+			name = CardanoNodeBuddyTests;
+			productName = CardanoNodeBuddyTests;
+			productReference = FCD38AF1293C677300FCD3A3 /* CardanoNodeBuddyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCD38AFA293C677300FCD3A3 /* CardanoNodeBuddyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCD38B0B293C677300FCD3A3 /* Build configuration list for PBXNativeTarget "CardanoNodeBuddyUITests" */;
+			buildPhases = (
+				FCD38AF7293C677300FCD3A3 /* Sources */,
+				FCD38AF8293C677300FCD3A3 /* Frameworks */,
+				FCD38AF9293C677300FCD3A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCD38AFD293C677300FCD3A3 /* PBXTargetDependency */,
+			);
+			name = CardanoNodeBuddyUITests;
+			productName = CardanoNodeBuddyUITests;
+			productReference = FCD38AFB293C677300FCD3A3 /* CardanoNodeBuddyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCD38AD8293C677200FCD3A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					FCD38ADF293C677200FCD3A3 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					FCD38AF0293C677300FCD3A3 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = FCD38ADF293C677200FCD3A3;
+					};
+					FCD38AFA293C677300FCD3A3 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = FCD38ADF293C677200FCD3A3;
+					};
+				};
+			};
+			buildConfigurationList = FCD38ADB293C677200FCD3A3 /* Build configuration list for PBXProject "CardanoNodeBuddy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCD38AD7293C677200FCD3A3;
+			productRefGroup = FCD38AE1293C677200FCD3A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCD38ADF293C677200FCD3A3 /* CardanoNodeBuddy */,
+				FCD38AF0293C677300FCD3A3 /* CardanoNodeBuddyTests */,
+				FCD38AFA293C677300FCD3A3 /* CardanoNodeBuddyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCD38ADE293C677200FCD3A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD38AEB293C677300FCD3A3 /* Preview Assets.xcassets in Resources */,
+				FCD38AE8293C677300FCD3A3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD38AEF293C677300FCD3A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD38AF9293C677300FCD3A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCD38ADC293C677200FCD3A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD38AE6293C677200FCD3A3 /* ContentView.swift in Sources */,
+				FCD38AE4293C677200FCD3A3 /* CardanoNodeBuddyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD38AED293C677300FCD3A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD38AF6293C677300FCD3A3 /* CardanoNodeBuddyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD38AF7293C677300FCD3A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD38B02293C677300FCD3A3 /* CardanoNodeBuddyUITestsLaunchTests.swift in Sources */,
+				FCD38B00293C677300FCD3A3 /* CardanoNodeBuddyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCD38AF3293C677300FCD3A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCD38ADF293C677200FCD3A3 /* CardanoNodeBuddy */;
+			targetProxy = FCD38AF2293C677300FCD3A3 /* PBXContainerItemProxy */;
+		};
+		FCD38AFD293C677300FCD3A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCD38ADF293C677200FCD3A3 /* CardanoNodeBuddy */;
+			targetProxy = FCD38AFC293C677300FCD3A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FCD38B03293C677300FCD3A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCD38B04293C677300FCD3A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FCD38B06293C677300FCD3A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CardanoNodeBuddy/CardanoNodeBuddy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CardanoNodeBuddy/Preview Content\"";
+				DEVELOPMENT_TEAM = VK4YEHB7P5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.covelop.CardanoNodeBuddy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FCD38B07293C677300FCD3A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CardanoNodeBuddy/CardanoNodeBuddy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CardanoNodeBuddy/Preview Content\"";
+				DEVELOPMENT_TEAM = VK4YEHB7P5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.covelop.CardanoNodeBuddy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FCD38B09293C677300FCD3A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VK4YEHB7P5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.covelop.CardanoNodeBuddyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardanoNodeBuddy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CardanoNodeBuddy";
+			};
+			name = Debug;
+		};
+		FCD38B0A293C677300FCD3A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VK4YEHB7P5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.covelop.CardanoNodeBuddyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardanoNodeBuddy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CardanoNodeBuddy";
+			};
+			name = Release;
+		};
+		FCD38B0C293C677300FCD3A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VK4YEHB7P5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.covelop.CardanoNodeBuddyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = CardanoNodeBuddy;
+			};
+			name = Debug;
+		};
+		FCD38B0D293C677300FCD3A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VK4YEHB7P5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.covelop.CardanoNodeBuddyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = CardanoNodeBuddy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCD38ADB293C677200FCD3A3 /* Build configuration list for PBXProject "CardanoNodeBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD38B03293C677300FCD3A3 /* Debug */,
+				FCD38B04293C677300FCD3A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCD38B05293C677300FCD3A3 /* Build configuration list for PBXNativeTarget "CardanoNodeBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD38B06293C677300FCD3A3 /* Debug */,
+				FCD38B07293C677300FCD3A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCD38B08293C677300FCD3A3 /* Build configuration list for PBXNativeTarget "CardanoNodeBuddyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD38B09293C677300FCD3A3 /* Debug */,
+				FCD38B0A293C677300FCD3A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCD38B0B293C677300FCD3A3 /* Build configuration list for PBXNativeTarget "CardanoNodeBuddyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD38B0C293C677300FCD3A3 /* Debug */,
+				FCD38B0D293C677300FCD3A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCD38AD8293C677200FCD3A3 /* Project object */;
+}
